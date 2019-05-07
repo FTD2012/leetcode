@@ -16,6 +16,19 @@
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "make"
+        },
+        {
+            "name": "7.reverse-interger",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/7.reverse-integer/7.reverse-integer",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "make"
         }
     ]
 }
