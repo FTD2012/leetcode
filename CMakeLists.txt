@@ -9,3 +9,4 @@ set(catchhpp ${CMAKE_CURRENT_SOURCE_DIR}/Catch/single_include/catch2/catch.hpp)
 
 # add_subdirectory(1.two-sum)
 # add_subdirectory(7.reverse-integer)
+add_subdirectory(9.palindrome-number)

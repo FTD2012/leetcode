@@ -29,6 +29,19 @@
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "make"
+        },
+        {
+            "name": "9.palindrome-number",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/9.palindrome-number/9.palindrome-number",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "make"
         }
     ]
 }
