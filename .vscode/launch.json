@@ -5,6 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "CPPTest",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/CPPTest/CPPTest",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "make"
+        },
+        {
             "name": "1.two-sum",
             "type": "cppdbg",
             "request": "launch",
@@ -35,6 +48,19 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/9.palindrome-number/9.palindrome-number",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "make"
+        },
+        {
+            "name": "784.letter-case-permutation",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/784.letter-case-permutation/784.letter-case-permutation",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
