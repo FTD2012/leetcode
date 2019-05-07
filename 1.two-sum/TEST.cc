@@ -11,7 +11,7 @@
 #include <iostream>
 #include <chrono>
 
-void marcoDefintion()
+void marcoDefinition()
 {
 #ifdef TWO_SUM_HASH
     std::cout << "Using 1.two-sum-hashmap.h" << std::endl;
@@ -22,7 +22,7 @@ void marcoDefintion()
 
 TEST_CASE("Two Sum", "twoSum")
 {
-    marcoDefintion();
+    marcoDefinition();
 
     Solution s;
 
