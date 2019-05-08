@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "CPPTest",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
             "program": "${workspaceFolder}/build/CPPTest/CPPTest",
             "args": [],
@@ -15,7 +15,8 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "make"
+            "preLaunchTask": "make",
+            "miDebuggerPath": "/Applications/Xcode.app/Contents/Developer/usr/bin/lldb-mi"
         },
         {
             "name": "1.two-sum",
@@ -57,6 +58,19 @@
             "preLaunchTask": "make"
         },
         {
+            "name": "491.increasing-subsequences",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/491.increasing-subsequences/491.increasing-subsequences",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "make"
+        },
+        {
             "name": "784.letter-case-permutation",
             "type": "cppdbg",
             "request": "launch",
@@ -67,7 +81,8 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "make"
+            "preLaunchTask": "make",
+            "miDebuggerPath": "/Applications/Xcode.app/Contents/Developer/usr/bin/lldb-mi"
         }
     ]
 }

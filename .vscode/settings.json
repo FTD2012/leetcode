@@ -69,6 +69,7 @@
         "streambuf": "cpp",
         "string_view": "cpp",
         "system_error": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "unordered_set": "cpp"
     },
 }
