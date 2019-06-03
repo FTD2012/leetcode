@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "CPPTest",
-            "type": "lldb",
+            "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/CPPTest/CPPTest",
             "args": [],
@@ -23,6 +23,19 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/1.two-sum/1.two-sum",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "make"
+        },
+        {
+            "name": "2.add-two-numbers",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/2.add-two-numbers/2.add-two-numbers",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -59,7 +72,7 @@
         },
         {
             "name": "491.increasing-subsequences",
-            "type": "lldb",
+            "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/491.increasing-subsequences/491.increasing-subsequences",
             "args": [],

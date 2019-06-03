@@ -1,6 +1,6 @@
 
 #define CATCH_CONFIG_MAIN
-#include "../Catch/single_include/catch2/catch.hpp"
+#include "../Catch2/single_include/catch2/catch.hpp"
 
 #include <iostream>
 #include "784.letter-case-permutation.h"
